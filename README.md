@@ -1,4 +1,4 @@
-# Perceiving Systems Mesh Package
+# Perceiving Systems Mesh Package (Python 2.7 compatible version)
 Mesh processing libraries that support several of our projects such as
 * [CoMA: Convolutional Mesh Encoders for Generating 3D Faces](http://coma.is.tue.mpg.de/)
 * [FLAME: Learning a model of facial shape and expression from 4D scans](http://flame.is.tue.mpg.de/)
