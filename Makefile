@@ -52,7 +52,7 @@ $(tmpdirbuild)/package_creation: $(tmpdirbuild)
 	@echo "********"
 	@echo "********"
 	@echo "\033[0m"
-	@virtualenv --system-site-packages $(venv_dir)
+	@virtualenv --system-site-packages $(venv_dir) --python=python2.7
 	@ . $(activate) && pip install --upgrade pip
 	@ . $(activate) && pip install --upgrade virtualenv
 	@ . $(activate) && pip install nose2

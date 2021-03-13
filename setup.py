@@ -114,7 +114,7 @@ class build_ext(_build_ext):
         if self.boost_location is not None:
             ext.include_dirs += [self.boost_location]
         # Remove empty paths
-        ext.include_dirs = filter(None, ext.include_dirs)
+        ext.include_dirs = list(filter(None, ext.include_dirs))
         return _build_ext.build_extension(self, ext)
 
     def run(self):

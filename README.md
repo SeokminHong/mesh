@@ -8,14 +8,15 @@ Mesh processing libraries that support several of our projects such as
 * [RingNet: 3D Face Shape and Expression Reconstruction from an Image](https://github.com/soubhiksanyal/RingNet)
 
 ## Prerequisites
-Install `boost`.
+Install `boost` and `python-dev`.
 
 On Linux:
 ```bash
-apt-get install libboost-all-dev
+apt-get install libboost-all-dev python-dev
 ```
 On Mac OS:
 ```bash
+# python-dev is already installed
 brew install boost
 ```
 
